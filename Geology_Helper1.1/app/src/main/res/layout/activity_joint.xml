@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:text="倾向："
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/ATxtDia"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="倾角："
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/ATxtDip"
+        android:layout_below="@+id/ATxtDia"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:text="气压："
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_alignParentStart="true"
+        android:id="@+id/TxtPre"
+        android:layout_below="@+id/ATxtDip" />
+
+    <TextView
+        android:text="海拔："
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/TxtLoc1"
+        android:layout_below="@+id/TxtPre"/>
+
+    <TextView
+        android:text="纬度："
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/TxtLoc2"
+        android:layout_below="@+id/TxtLoc1"/>
+
+    <TextView
+        android:text="经度："
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/TxtLoc3"
+        android:layout_below="@+id/TxtLoc2"/>
+
+    <Button
+        android:text="星标存储"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/BtnMark"
+        android:layout_below="@+id/TxtLoc3"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="普通存储"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/BtnSave"
+        android:layout_alignBaseline="@+id/BtnMark"
+        android:layout_alignBottom="@+id/BtnMark"
+        android:layout_toEndOf="@+id/BtnMark" />
+
+    <Button
+        android:text="删除数据"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/BtnDel"
+        android:layout_alignBaseline="@+id/BtnSave"
+        android:layout_alignBottom="@+id/BtnSave"
+        android:layout_toEndOf="@+id/BtnSave" />
+
+    <Button
+        android:text="顺序列表"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BtnMark"
+        android:layout_alignStart="@+id/BtnMark"
+        android:id="@+id/BtnOrder" />
+
+    <Button
+        android:text="导出数据"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BtnSave"
+        android:layout_alignStart="@+id/BtnSave"
+        android:id="@+id/BtnExport" />
+
+    <Button
+        android:text="清空列表"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnClear"
+        android:layout_below="@+id/BtnDel"
+        android:layout_alignStart="@+id/BtnDel" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/BtnOrder">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="倾向：__  倾角：__  星标：1/0"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="20dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:id="@+id/TxtList" />
+    </ScrollView>
+
+    <TextView
+        android:text="__"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/TxtDip"
+        android:layout_alignBaseline="@+id/ATxtDip"
+        android:layout_alignBottom="@+id/ATxtDip"
+        android:layout_toEndOf="@+id/ATxtDia" />
+
+    <TextView
+        android:text="__"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/TxtDia"
+        android:layout_alignBaseline="@+id/ATxtDia"
+        android:layout_alignBottom="@+id/ATxtDia"
+        android:layout_toEndOf="@+id/ATxtDia" />
+
+
+</RelativeLayout>

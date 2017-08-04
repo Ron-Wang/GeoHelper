@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.thutyh.geology_helper11.MainActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/TxtChoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="16dp"
+        android:paddingTop="0dp"
+        android:text="欢迎使用GeoHelper（地质助手）！"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="20dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/TxtChoose"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BtnJoint"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/icon1"
+                />
+
+            <Button
+                android:id="@+id/BtnPaint"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/BtnJoint"
+                android:background="@drawable/icon2" />
+
+            <Button
+                android:id="@+id/BtnCal"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/BtnJoint"
+                android:background="@drawable/icon3" />
+
+            <Button
+                android:id="@+id/BtnUrl"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@drawable/icon4"
+                android:layout_below="@+id/BtnPaint"
+                android:layout_toEndOf="@+id/BtnJoint" />
+
+            <Button
+                android:id="@+id/BtnKnow"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@drawable/icon5"
+                android:layout_below="@+id/BtnCal"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/BtnCall"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@drawable/icon6"
+                android:layout_below="@+id/BtnCal"
+                android:layout_toEndOf="@+id/BtnKnow" />
+
+            <ImageView
+                android:id="@+id/imageview1"
+                android:layout_width="480dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/BtnKnow"
+                android:layout_marginTop="25dp"
+                android:layout_toEndOf="@+id/BtnUrl"
+                android:background="@drawable/imageview"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

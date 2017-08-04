@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.thutyh.geology_helper11.CallActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/TxtCall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="1dp"
+                android:paddingBottom="10dp"
+                android:textColor="?android:attr/colorPressedHighlight"
+                android:textIsSelectable="true"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnCall1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TxtCall"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@android:color/holo_purple"
+                android:text="清华大学水利水电工程系"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnCall2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnCall1"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_purple"
+                android:text="Github:https://github.com/Ron-Wang"
+                android:textColor="@android:color/background_light"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+

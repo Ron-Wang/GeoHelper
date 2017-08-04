@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_paint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    tools:context="com.thutyh.geology_helper11.PaintActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="选择数据文件及绘图类型"
+        android:textColor="?android:attr/colorPressedHighlight" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="赤平投影绘图"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnPaint1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:layout_width="330dp"
+                android:layout_height="330dp"
+                app:srcCompat="@android:color/transparent"
+                android:layout_below="@+id/btnPaint4"
+                android:id="@+id/ImView"
+                android:layout_centerHorizontal="true" />
+            <ImageView
+                android:layout_width="330dp"
+                android:layout_height="100dp"
+                app:srcCompat="@android:color/transparent"
+                android:layout_below="@+id/ImView"
+                android:id="@+id/ImView2"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:text="节理极点图"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnPaint2"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/btnPaint1" />
+
+            <Button
+                android:text="节理玫瑰花图"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnPaint3"
+                android:layout_below="@+id/btnPaint1"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:text="节理等密度图"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnPaint4"
+                android:layout_alignBaseline="@+id/btnPaint3"
+                android:layout_alignBottom="@+id/btnPaint3"
+                android:layout_toEndOf="@+id/btnPaint3" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

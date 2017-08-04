@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.thutyh.geology_helper11.DocActivity"
+    android:background="@drawable/background">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnkw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:background="@android:color/holo_purple"
+                android:text="常见矿物资料"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/btnyjy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="岩浆岩资料"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"
+                android:layout_below="@+id/btnkw"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:id="@+id/btncjy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="沉积岩资料"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"
+                android:layout_below="@+id/btnyjy"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="22dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:id="@+id/btnbzy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="变质岩资料"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"
+                android:layout_below="@+id/btncjy"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:id="@+id/btnqw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="校园中的石头"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"
+                android:layout_below="@+id/btnbzy"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:id="@+id/btnq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="问题集锦"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp"
+                android:layout_below="@+id/btnqw"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
