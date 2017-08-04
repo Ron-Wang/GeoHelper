@@ -2,4 +2,6 @@
 #运行界面：</br>
 ![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/result.gif)</br>
 #软件图标：</br>
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/2.0.png width="150" height="150")</br>
+![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/000软件.jpg 150 150)</br>
+#主界面图标：</br>
+![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/000主界面.png)</br>
