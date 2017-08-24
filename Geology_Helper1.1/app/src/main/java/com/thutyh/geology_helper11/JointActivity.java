@@ -149,12 +149,25 @@ public class JointActivity extends AppCompatActivity implements SensorEventListe
         SensorManager.getOrientation(r, values);
 
         float roundDia, roundDip;
-        double floatPre;
-        roundDip = (float) Math.acos(1 /Math.sqrt(Math.tan(values[1]) *Math.tan(values[1]) +Math.tan(values[2]) *Math.tan(values[2]) +1));//没毛病了
-        roundDia = (float) (values[0] +Math.acos(Math.tan(values[1]) /Math.tan(roundDip)));//尚需要分类讨论
-        values[0] = (float) Math.toDegrees(values[0]);//手机的方位，正北为0°，顺时针180°为正，逆时针180°为负
-        values[1] = (float) Math.toDegrees(values[1]);//手机上下倾斜程度
-        values[2] = (float) Math.toDegrees(values[2]);//手机左右倾斜程度
+        double floatPre,values0;
+        roundDip = (float) Math.acos(1 /Math.sqrt(Math.tan(values[1]) *Math.tan(values[1]) +Math.tan(values[2]) *Math.tan(values[2]) +1));
+        if(values[0] > 0)
+            values0 = values[0];
+        else
+            values0 = 2 *Math.PI +values[0];
+        if(values[2] < 0)
+            roundDia = (float) (values0 -Math.acos(Math.tan(values[1]) /Math.tan(roundDip)));
+        else
+            roundDia = (float) (values0 +Math.acos(Math.tan(values[1]) /Math.tan(roundDip)));
+        if(roundDia < 0)
+            while (roundDia < 0)
+                roundDia += 2 *Math.PI;
+        else if(roundDia > 2 *Math.PI)
+            while (roundDia > 2 *Math.PI)
+                roundDia -= 2 *Math.PI;
+        //values[0] 手机的方位，正北为0°，顺时针180°为正，逆时针180°为负
+        //values[1] 手机上下倾斜程度
+        //values[2] 手机左右倾斜程度
         //把数据由弧度转化成角度
         roundDip = (float) Math.toDegrees(roundDip);
         roundDia = (float) Math.toDegrees(roundDia);
