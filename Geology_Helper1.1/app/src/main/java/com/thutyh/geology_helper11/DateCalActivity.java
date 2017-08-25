@@ -67,20 +67,20 @@ public class DateCalActivity extends AppCompatActivity {
                     .setPositiveButton("确定",
                             new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog,int id) {
-                                    dipJ1 = (float) (Float.valueOf(text_dipJ1.getText().toString()) *Math.PI /180);
-                                    diaJ1 = (float) (Float.valueOf(text_diaJ1.getText().toString()) *Math.PI /180);
-                                    phaJ1 = (float) (Float.valueOf(text_phaJ1.getText().toString()) *Math.PI /180);
+                                    dipJ1 = (float) (Float.valueOf(text_dipJ1.getText().toString()) *Math.PI /180.0);
+                                    diaJ1 = (float) (Float.valueOf(text_diaJ1.getText().toString()) *Math.PI /180.0);
+                                    phaJ1 = (float) (Float.valueOf(text_phaJ1.getText().toString()) *Math.PI /180.0);
                                     cJ1 = Float.valueOf(text_cJ1.getText().toString());
-                                    dipJ2 = (float) (Float.valueOf(text_dipJ2.getText().toString()) *Math.PI /180);
-                                    diaJ2 = (float) (Float.valueOf(text_diaJ2.getText().toString()) *Math.PI /180);
-                                    phaJ2 = (float) (Float.valueOf(text_phaJ2.getText().toString()) *Math.PI /180);
+                                    dipJ2 = (float) (Float.valueOf(text_dipJ2.getText().toString()) *Math.PI /180.0);
+                                    diaJ2 = (float) (Float.valueOf(text_diaJ2.getText().toString()) *Math.PI /180.0);
+                                    phaJ2 = (float) (Float.valueOf(text_phaJ2.getText().toString()) *Math.PI /180.0);
                                     cJ2 = Float.valueOf(text_cJ2.getText().toString());
-                                    dipJ3 = (float) (Float.valueOf(text_dipJ3.getText().toString()) *Math.PI /180);
-                                    diaJ3 = (float) (Float.valueOf(text_diaJ3.getText().toString()) *Math.PI /180);
-                                    dipJ4 = (float) (Float.valueOf(text_dipJ4.getText().toString()) *Math.PI /180);
-                                    diaJ4 = (float) (Float.valueOf(text_diaJ4.getText().toString()) *Math.PI /180);
-                                    dipJ5 = (float) (Float.valueOf(text_dipJ5.getText().toString()) *Math.PI /180);
-                                    diaJ5 = (float) (Float.valueOf(text_diaJ5.getText().toString()) *Math.PI /180);
+                                    dipJ3 = (float) (Float.valueOf(text_dipJ3.getText().toString()) *Math.PI /180.0);
+                                    diaJ3 = (float) (Float.valueOf(text_diaJ3.getText().toString()) *Math.PI /180.0);
+                                    dipJ4 = (float) (Float.valueOf(text_dipJ4.getText().toString()) *Math.PI /180.0);
+                                    diaJ4 = (float) (Float.valueOf(text_diaJ4.getText().toString()) *Math.PI /180.0);
+                                    dipJ5 = (float) (Float.valueOf(text_dipJ5.getText().toString()) *Math.PI /180.0);
+                                    diaJ5 = (float) (Float.valueOf(text_diaJ5.getText().toString()) *Math.PI /180.0);
                                     length = Float.valueOf(text_length.getText().toString());
                                     gamma = Float.valueOf(text_gamma.getText().toString()) /1000;
                                     gammawater = Float.valueOf(text_gammawater.getText().toString()) /1000;
@@ -93,7 +93,6 @@ public class DateCalActivity extends AppCompatActivity {
                                             m,m5,n,n5,p,q,q5,r,s5,v5,w5,lamda,lamda5,R,epsilon,rho,mu,upsilon,
                                             G,G5,M,M5,h,h5,A1,A2,A5,W,u1,u2,u5,V,N1,N2,S,Q,FSW,FSD,eta;
                                     eta = 1.0;
-
 
                                     ax = Math.sin(dipJ1) * Math.sin(diaJ1);
                                     ay = Math.sin(dipJ1) * Math.cos(diaJ1);
@@ -115,7 +114,7 @@ public class DateCalActivity extends AppCompatActivity {
                                     gy = fz * ax - fx * az;
                                     gz = fx * ay - fy * ax;
                                     g5x = f5y * az - f5z * ay;
-                                    g5y = f5y * az - f5z * ay;
+                                    g5y = f5z * ax - f5x * az;
                                     g5z = f5x * ay - f5y * ax;
                                     ix = by * az - bz * ay;
                                     iy = bz * ax - bx * az;
@@ -143,34 +142,35 @@ public class DateCalActivity extends AppCompatActivity {
                                     lamda = ix * gx + iy * gy + iz * gz;
                                     lamda5 = ix * g5x + iy * g5y + iz * g5z;
                                     epsilon = fx * f5x + fy * f5y + fz * f5z;
-                                    R = Math.abs(1 - r * r);
+
+                                    R = Math.sqrt(1 - r * r);
                                     rho = n * q / (R *R * Math.abs(n * q));
                                     mu = m * q / (R *R * Math.abs(m * q));
                                     upsilon = p / (R * Math.abs(p));
                                     G = gx *gx + gy *gy + gz *gz;
                                     G5 = g5x *g5x + g5y *g5y + g5z *g5z;
-                                    M = Math.abs(G * p *p - 2 * m * p * lamda + m *m * R *R);
-                                    M5 = Math.abs (G5 * p *p - 2 * m5 * p * lamda5 + m5 *m5 * R *R);
-                                    h = height * 3.2808399 / Math.abs(gz);
-                                    h5 = (M * h - Math.abs(p) * length * 3.2808399) / M5;
+                                    M = Math.sqrt(G * p *p - 2 * m * p * lamda + m *m * R *R);
+                                    M5 = Math.sqrt (G5 * p *p - 2 * m5 * p * lamda5 + m5 *m5 * R *R);
+                                    h = height * 3.280840 / Math.abs(gz);
+                                    h5 = (M * h - Math.abs(p) * length * 3.280840) / M5;
                                     A1 = (Math.abs(m * q) * h *h - Math.abs(m5 * q5) * h5 *h5) / (2 * Math.abs(p));
                                     A2 = (Math.abs(q / n) * m *m * h *h - Math.abs(q5 / n5) * m5 *m5 * h5 *h5) / (2 * Math.abs(p));
                                     A5 = Math.abs(m5 * q5) * h5 *h5 / (2 * Math.abs(n5));
-                                    W = gamma * 62.427961* (q *q * m *m *h *h *h / Math.abs(n) - q5 *q5 * m5 *m5 * h5 *h5 *h5 / Math.abs(n5)) / (6 * Math.abs(p));
-                                    u1 = u2 = u5 = gammawater * 62.427961* h5 * Math.abs(m5) / (3 * dz);
-                                    V = u5 * A5 * eta * epsilon / (Math.abs(upsilon));
+                                    W = gamma * 62.50* (q *q * m *m *h *h *h / Math.abs(n) - q5 *q5 * m5 *m5 * h5 *h5 *h5 / Math.abs(n5)) / (6 * Math.abs(p));
+                                    u1 = u2 = u5 = gammawater * 62.50* h5 * Math.abs(m5) / (3 * dz);
+                                    V = u5 * A5 * eta * epsilon / (Math.abs(epsilon));
                                     N1 = rho * (W * kz + V * (r * v5 - s5)) - u1 * A1;
                                     N2 = mu * (W * lz + V * (r * s5 - v5)) - u2 * A2;
                                     S = upsilon * (W * iz - V * w5);
-                                    Q = N1 *tan(phaJ1) + N2 * tan(phaJ2) + cJ1 * 20.8854351* A1 + cJ2 * 20.8854351* A2;
+                                    Q = N1 *tan(phaJ1) + N2 * tan(phaJ2) + cJ1 * 20.920502* A1 + cJ2 * 20.920502* A2;
                                     FSW = Q / S;
 
                                     u1 = u2 = u5 = 0;
-                                    V = u5 * A5 * eta * epsilon / (Math.abs(upsilon));
+                                    V = u5 * A5 * eta * epsilon / (Math.abs(epsilon));
                                     N1 = rho * (W * kz + V * (r * v5 - s5)) - u1 * A1;
                                     N2 = mu * (W * lz + V * (r * s5 - v5)) - u2 * A2;
                                     S = upsilon * (W * iz - V * w5);
-                                    Q = N1 *tan(phaJ1) + N2 * tan(phaJ2) + cJ1 * 20.8854351* A1 + cJ2 * 20.8854351* A2;
+                                    Q = N1 *tan(phaJ1) + N2 * tan(phaJ2) + cJ1 * 20.920502* A1 + cJ2 * 20.920502* A2;
                                     FSD = Q / S;
                                     txtXW.setText("充水：\n" + String.valueOf(FSW) + "\n" + "干燥：\n" + String.valueOf(FSD));
 
