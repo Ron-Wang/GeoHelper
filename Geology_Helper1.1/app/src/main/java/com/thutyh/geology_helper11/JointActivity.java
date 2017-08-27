@@ -29,7 +29,7 @@ import java.util.Date;
 
 public class JointActivity extends AppCompatActivity implements SensorEventListener {
 
-    //Ron-Wang 2017-5-6 倾向修正需分类
+    //By Ron-Wang
     private SensorManager sensorManager;
     private Sensor acc_sensor;
     private Sensor mag_sensor;
@@ -44,7 +44,6 @@ public class JointActivity extends AppCompatActivity implements SensorEventListe
     //模拟方向传感器取得的数据，弧度制
     float values[] = new float[3];
 
-    //定义界面上各个组件
     private TextView dia = null;
     private TextView dip = null;
     private TextView pre =null,
@@ -58,7 +57,7 @@ public class JointActivity extends AppCompatActivity implements SensorEventListe
             mbtn5,
             mbtn6;
     private TextView mgeolist;
-
+    
     //GPS
     private final String TAG = "GpsExample";
 
@@ -329,7 +328,7 @@ public class JointActivity extends AppCompatActivity implements SensorEventListe
 
         }
     };
-    //导出数据文件TXT到/sdcard/Joint/
+    //导出数据文件TXT到/sdcard/Joint/，以日期命名
     private View.OnClickListener btnExportOnClick = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
