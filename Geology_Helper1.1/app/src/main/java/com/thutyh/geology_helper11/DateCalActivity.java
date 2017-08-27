@@ -85,9 +85,7 @@ public class DateCalActivity extends AppCompatActivity {
                                     gamma = Float.valueOf(text_gamma.getText().toString()) /1000;
                                     gammawater = Float.valueOf(text_gammawater.getText().toString()) /1000;
                                     height = Float.valueOf(text_height.getText().toString());
-
-
-
+                                    
                                     double ax,ay,az,bx,by,bz,dx,dy,dz,fx,fy,fz,f5x,f5y,f5z,
                                             gx,gy,gz,g5x,g5y,g5z,ix,iy,iz,jx,jy,jz,j5x,j5y,j5z,kz,lz,
                                             m,m5,n,n5,p,q,q5,r,s5,v5,w5,lamda,lamda5,R,epsilon,rho,mu,upsilon,
@@ -153,10 +151,12 @@ public class DateCalActivity extends AppCompatActivity {
                                     M5 = Math.sqrt (G5 * p *p - 2 * m5 * p * lamda5 + m5 *m5 * R *R);
                                     h = height * 3.280840 / Math.abs(gz);
                                     h5 = (M * h - Math.abs(p) * length * 3.280840) / M5;
+                                    
                                     A1 = (Math.abs(m * q) * h *h - Math.abs(m5 * q5) * h5 *h5) / (2 * Math.abs(p));
                                     A2 = (Math.abs(q / n) * m *m * h *h - Math.abs(q5 / n5) * m5 *m5 * h5 *h5) / (2 * Math.abs(p));
                                     A5 = Math.abs(m5 * q5) * h5 *h5 / (2 * Math.abs(n5));
                                     W = gamma * 62.50* (q *q * m *m *h *h *h / Math.abs(n) - q5 *q5 * m5 *m5 * h5 *h5 *h5 / Math.abs(n5)) / (6 * Math.abs(p));
+                                    
                                     u1 = u2 = u5 = gammawater * 62.50* h5 * Math.abs(m5) / (3 * dz);
                                     V = u5 * A5 * eta * epsilon / (Math.abs(epsilon));
                                     N1 = rho * (W * kz + V * (r * v5 - s5)) - u1 * A1;
