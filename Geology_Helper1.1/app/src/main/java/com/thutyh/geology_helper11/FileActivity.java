@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +19,7 @@ public class FileActivity extends ListActivity {
     private String rootPath = getSDDir();
     private String curPath = getSDDir();
     private TextView mPath;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,8 +27,6 @@ public class FileActivity extends ListActivity {
         mPath = (TextView)findViewById(R.id.mPath);
         getFileDir(rootPath);
     }
-
-
 
     private void getFileDir(String filePath) {
         mPath.setText(filePath);
@@ -44,8 +42,6 @@ public class FileActivity extends ListActivity {
         }
         for (int i = 0; i < files.length; i++) {
             File file = files[i];
-            // check file is txt file or not
-            // if is,add into list to show
             if (checkShapeFile(file)){
                 items.add(file.getName());
                 paths.add(file.getPath());
@@ -54,7 +50,6 @@ public class FileActivity extends ListActivity {
         setListAdapter(new MyAdapter(this,items,paths));
     }
 
-    // open allocate file
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
         File file = new File(paths.get(position));
@@ -70,11 +65,10 @@ public class FileActivity extends ListActivity {
             finish();
         }
     }
+    
     public boolean checkShapeFile(File file) {
         String fileNameString = file.getName();
         String endNameString = fileNameString.substring(fileNameString.lastIndexOf(".") + 1,fileNameString.length()).toLowerCase();
-        // file is directory or not
-
         if(file.isDirectory()) {
             return true;
         }
@@ -106,4 +100,3 @@ public class FileActivity extends ListActivity {
         }
     }
 }
-
