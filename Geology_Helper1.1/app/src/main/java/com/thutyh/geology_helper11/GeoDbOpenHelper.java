@@ -4,10 +4,6 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-/**
- * Created by admin on 2017/5/4.
- */
-
 public class GeoDbOpenHelper extends SQLiteOpenHelper {
 
     public GeoDbOpenHelper(Context context, String name , SQLiteDatabase.CursorFactory factory, int version){
