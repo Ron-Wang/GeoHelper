@@ -1,4 +1,5 @@
 # GeoHelper（地质助手）
+安智市场下载地址：http://www.anzhi.com/pkg/ebc2_com.thutyh.geology_helper11.html
 运行界面：</br>
 ![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/result.gif)</br>
 ## 软件
