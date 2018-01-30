@@ -17,9 +17,10 @@ http://sj.qq.com/myapp/detail.htm?apkName=com.thutyh.geology_helper11</br>
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/result.gif width=300dp height=533dp>
-</div>-->
+</div>
 
-## 软件
+## 界面截图：
+### 软件
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/000软件.jpg width=300dp height=533dp>
@@ -37,7 +38,6 @@ http://sj.qq.com/myapp/detail.htm?apkName=com.thutyh.geology_helper11</br>
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/001产状测量.png width=300dp height=533dp>
 </div>
 
-![image]()</br>
 ### 绘图界面
 
 <div align="center">
@@ -48,15 +48,32 @@ http://sj.qq.com/myapp/detail.htm?apkName=com.thutyh.geology_helper11</br>
 </div>
 
 ### 系数计算界面
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/003系数计算-01.png)</br>
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/003系数计算-02.png)</br>
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/003系数计算-03.png)</br>
+
+<div align="center">
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/003系数计算-01.png width=300dp height=533dp>
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/003系数计算-02.png width=300dp height=533dp>
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/003系数计算-03.png width=300dp height=533dp>
+</div>
+
 ### 云平台界面
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/004云平台.png)</br>
+
+<div align="center">
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/004云平台.png width=300dp height=533dp>
+</div>
+
 ### 地质资料界面
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/005地质资料-00.png)</br>
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/005地质资料-01.png)</br>
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/005地质资料-02.png)</br>
+
+<div align="center">
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/005地质资料-00.png width=300dp height=533dp>
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/005地质资料-01.png width=300dp height=533dp>
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/005地质资料-02.png width=300dp height=533dp>
+</div>
+
 ### 联系界面
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/006联系我们-01.png)</br>
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/006联系我们-02.png)</br>
+
+<div align="center">
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/006联系我们-01.png width=300dp height=533dp>
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/006联系我们-02.png width=300dp height=533dp>
+</div>
+
+
