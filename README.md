@@ -17,13 +17,13 @@ http://sj.qq.com/myapp/detail.htm?apkName=com.thutyh.geology_helper11</br>
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/result.gif width=300dp height=533dp>
-</div>
+</div>-->
 
 ## 软件
 
 <div align="center"
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/000软件.jpg width=300dp height=533dp>
-</div>
+</div>-->
 
 ### 主界面
 
