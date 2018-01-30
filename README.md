@@ -21,26 +21,26 @@ http://sj.qq.com/myapp/detail.htm?apkName=com.thutyh.geology_helper11</br>
 
 ## 软件
 
-<div align="center"
+<div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/000软件.jpg width=300dp height=533dp>
-</div>-->
+</div>
 
 ### 主界面
 
-<div align="center"
+<div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/000主界面.png width=300dp height=533dp>
 </div>
 
 ### 产状测量界面
 
-<div align="center"
+<div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/001产状测量.png width=300dp height=533dp>
 </div>
 
 ![image]()</br>
 ### 绘图界面
 
-<div align="center"
+<div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-02.png width=300dp height=533dp>
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-03.png width=300dp height=533dp>
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-04.png width=300dp height=533dp>
