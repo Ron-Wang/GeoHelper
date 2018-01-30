@@ -12,7 +12,6 @@ http://app.mi.com/details?id=com.thutyh.geology_helper11&ref=search</br>
 http://sj.qq.com/myapp/detail.htm?apkName=com.thutyh.geology_helper11</br>
 ## 运行界面：
 <div><img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/result.gif width=300dp height=600dp></div>
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/result.gif)</br>
 ### 软件
 ![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/000软件.jpg)</br>
 ### 主界面
