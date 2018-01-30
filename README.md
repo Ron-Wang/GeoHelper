@@ -41,9 +41,18 @@ http://sj.qq.com/myapp/detail.htm?apkName=com.thutyh.geology_helper11</br>
 ### 绘图界面
 
 <div align="center">
-  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-02.png width=300dp height=533dp>\r\n
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-02.png width=300dp height=533dp>
+</div>
+
+<div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-03.png width=300dp height=533dp>
+</div>
+
+<div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-04.png width=300dp height=533dp>
+</div>
+
+<div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-05.png width=300dp height=533dp>
 </div>
 
@@ -51,7 +60,13 @@ http://sj.qq.com/myapp/detail.htm?apkName=com.thutyh.geology_helper11</br>
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/003系数计算-01.png width=300dp height=533dp>
+</div>
+
+<div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/003系数计算-02.png width=300dp height=533dp>
+</div>
+
+<div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/003系数计算-03.png width=300dp height=533dp>
 </div>
 
@@ -65,7 +80,13 @@ http://sj.qq.com/myapp/detail.htm?apkName=com.thutyh.geology_helper11</br>
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/005地质资料-00.png width=300dp height=533dp>
+</div>
+
+<div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/005地质资料-01.png width=300dp height=533dp>
+</div>
+
+<div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/005地质资料-02.png width=300dp height=533dp>
 </div>
 
@@ -73,6 +94,9 @@ http://sj.qq.com/myapp/detail.htm?apkName=com.thutyh.geology_helper11</br>
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/006联系我们-01.png width=300dp height=533dp>
+</div>
+
+<div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/006联系我们-02.png width=300dp height=533dp>
 </div>
 
