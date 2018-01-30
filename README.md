@@ -1,5 +1,7 @@
 # GeoHelper（地质助手）
+
 ## 下载地址
+
 安智市场：</br>
 http://www.anzhi.com/pkg/ebc2_com.thutyh.geology_helper11.html</br>
 百度手机助手：</br>
@@ -10,27 +12,43 @@ http://appstore.huawei.com/app/C100077767</br>
 http://app.mi.com/details?id=com.thutyh.geology_helper11&ref=search</br>
 应用宝（野外地质助手）：</br>
 http://sj.qq.com/myapp/detail.htm?apkName=com.thutyh.geology_helper11</br>
-### 运行界面：
+
+## 运行界面：
 
 <div align="center">
-  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/result.gif width=300dp height=600dp>
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/result.gif width=300dp height=533dp>
 </div>
+
+## 界面截图：
 
 ### 软件
 
-<div align="center
-  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/000软件.jpg width=300dp height=600dp>
+<div align="center"
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/000软件.jpg width=300dp height=533dp>
 </div>
 
 ### 主界面
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/000主界面.png)</br>
+
+<div align="center"
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/000主界面.png width=300dp height=533dp>
+</div>
+
 ### 产状测量界面
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/001产状测量.png)</br>
+
+<div align="center"
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/001产状测量.png width=300dp height=533dp>
+</div>
+
+![image]()</br>
 ### 绘图界面
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-02.png)</br>
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-03.png)</br>
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-04.png)</br>
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-05.png)</br>
+
+<div align="center"
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-02.png width=300dp height=533dp>
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-03.png width=300dp height=533dp>
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-04.png width=300dp height=533dp>
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-05.png width=300dp height=533dp>
+</div>
+
 ### 系数计算界面
 ![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/003系数计算-01.png)</br>
 ![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/003系数计算-02.png)</br>
