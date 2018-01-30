@@ -10,15 +10,18 @@ http://appstore.huawei.com/app/C100077767</br>
 http://app.mi.com/details?id=com.thutyh.geology_helper11&ref=search</br>
 应用宝（野外地质助手）：</br>
 http://sj.qq.com/myapp/detail.htm?apkName=com.thutyh.geology_helper11</br>
-## 运行界面：
-<div>
+### 运行界面：
+
+<div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/result.gif width=300dp height=600dp>
 </div>
+
 ### 软件
-<div>
+
+<div align="center
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/000软件.jpg width=300dp height=600dp>
 </div>
-![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/000软件.jpg)</br>
+
 ### 主界面
 ![image](https://github.com/Ron-Wang/GeoHelper/blob/master/Image/000主界面.png)</br>
 ### 产状测量界面
