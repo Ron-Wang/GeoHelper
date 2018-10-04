@@ -4,6 +4,7 @@
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/result.gif width=300dp height=533dp>
 </div>
+
 ## 界面截图/Interface
 
 ### 产状测量界面/Joint Measurement Interface
@@ -17,6 +18,7 @@
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/002绘图-05.png width=300dp height=533dp>
 </div>
+
 ## 使用说明/Manual
 
 详见：GeoHelper(地质助手)1.0使用说明书.pdf
