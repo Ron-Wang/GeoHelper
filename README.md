@@ -21,5 +21,5 @@
 
 ## 使用说明/Manual
 
-详见：GeoHelper(地质助手)1.0使用说明书.pdf
+详见：GeoHelper(地质助手)1.0使用说明书.pdf</br>
 https://github.com/Ron-Wang/GeoHelper/blob/master/GeoHelper(地质助手)1.0使用说明书.pdf
