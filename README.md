@@ -26,31 +26,32 @@ GeoHelper首次将手机应用于岩体结构测量与可视化统计分析，�
 * **产状测量界面（Rock Joints Measuring Interface）**  
 
 测量前的准备工作类似指南针，应该远离干扰源，并将手机绕“8”字晃动重新校准手机指南针。  
-测量时，对手机摆放方向没有要求——我们在野外有时也很难判断出结构面的走向方向，需要将手机紧贴要测量的结构面。  
+测量时，需要将手机紧贴要测量的结构面，这里对手机摆放方向没有要求。待界面上的测量结果稳定后即可读数或记录，软件提供了数据存储（可标记优势结构面）、删除及导出等功能。  
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/001产状测量.png width=300dp>
 </div>
 
 * **绘图界面（Drawing Interface）**  
-*赤平投影图* 
+*赤平投影图*  
+输入各个节理面信息（倾向、倾角），最多支持三组节理面  
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/002绘图-01.png width=300dp>
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/002绘图-02.png width=300dp>
 </div>
 
-*节理极点图*  
-输入各个节理面信息（倾向、倾角），最多支持三组节理面  
-
-<div align="center">
-  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/002绘图-03.png width=300dp>
-</div>
-
-对于后面几种统计图绘制，需要选择数据文件输入，读取的文件格式是txt，其中数据形式如下（编号 倾向 倾角 是否标记）：
+对于节理极点图、节理走向等玫瑰花图及节理等密度图，需要选择数据文件输入，读取的文件格式是txt，其中数据形式如下（编号 倾向 倾角 是否标记）：
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/txt.png width=600dp>
+</div>
+
+*节理极点图*  
+
+
+<div align="center">
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/002绘图-03.png width=300dp>
 </div>
 
 *节理走向等玫瑰花图*  
