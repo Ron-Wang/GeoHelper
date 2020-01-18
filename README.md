@@ -32,9 +32,9 @@ GeoHelper首次将手机应用于岩体结构测量与可视化统计分析，�
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/001产状测量.png width=300dp>
 </div>
 
-*GeoHelper与机械罗盘的测量数据对比
+*GeoHelper与机械罗盘的测量数据对比*
 
-No | 罗盘 | GeoHelper | 罗盘 | GeoHelper  
+序号 | 罗盘倾向 | GeoHelper倾向 | 罗盘倾角 | GeoHelper倾角  
 ---- | ---- | ---- | ---- | ------  
 1 | 358.0 | 1.0 | 20.0 | 21.0  
 2 | 53.0 | 55.0 | 21.0 | 20.0  
