@@ -8,6 +8,7 @@ GeoHelper是基于手机移动终端开发的，集岩体结构面野外量测�
 
 ## 软件特点（Software Features）
 
+节理面的测量统计是进行岩体受力变形分析的基础，因此野外进行节理面产状的测量、对采集数据进行统计绘图以及后期的分析计算就显得尤为重要。传统的产状测量主要依靠机械罗盘，野外测量的效率较低（测量一个产状大约需要一分钟），工作强度大。  
 GeoHelper首次将手机应用于岩体结构测量与可视化统计分析，极大地提高了结构面产状的测量效率，同时实现了在野外实时的统计分析，是地质领域一个非常实用的、便捷的移动信息平台。
 
 ## 运行环境（Operating Environment）
@@ -34,6 +35,8 @@ GeoHelper首次将手机应用于岩体结构测量与可视化统计分析，�
 
 *GeoHelper与机械罗盘的测量数据对比*
 
+<div align="center">
+  
 序号 | 罗盘倾向 | GeoHelper倾向 | 罗盘倾角 | GeoHelper倾角  
 ---- | ---- | ---- | ---- | ------  
 1 | 358.0 | 1.0 | 20.0 | 21.0  
@@ -52,6 +55,7 @@ GeoHelper首次将手机应用于岩体结构测量与可视化统计分析，�
 14 | 272.0 | 276.0 | 56.0 | 58.0  
 15 | 286.0 | 284.0 | 67.0 | 65.0  
 
+</div>
 
 * **绘图界面（Drawing Interface）**  
 *赤平投影图*  
@@ -88,6 +92,8 @@ GeoHelper首次将手机应用于岩体结构测量与可视化统计分析，�
 </div>
 
 * **系数计算界面（Coefficient Calculating Interface）**  
+
+GeoHelper中楔形体稳定系数的计算，参照的是《边坡工程理论与实践最新发展》一书中的Hoek法。  
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/003系数计算-02.png width=300dp>
