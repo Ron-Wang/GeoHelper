@@ -126,7 +126,7 @@ GeoHelper中楔形体稳定系数的计算，参照的是《边坡工程理论�
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/006联系我们-01.png width=300dp>
 </div>
 
-## 使用说明/Manual
+## 使用说明（Manual）
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/result.gif width=300dp>
