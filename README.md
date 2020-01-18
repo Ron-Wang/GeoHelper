@@ -2,7 +2,9 @@
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/2.0.png width=80dp>  
-  **GeoHelper Icon**
+</div>
+<div align="center">
+  GeoHelper Icon
 </div>
 
 GeoHelper是基于手机移动终端开发的，集岩体结构面野外量测、数据存储导出及可视化统计分析等于一体的移动信息平台。  
