@@ -1,6 +1,20 @@
 # GeoHelper（地质助手）v1.0
 
-## 运行界面/Running Interface
+## 概述（Introduction）
+
+GeoHelper是基于手机移动终端开发的，集岩体结构面野外量测、数据存储导出及可视化统计分析等于一体的移动信息平台。  
+GeoHelper的开发应用，大大提高了岩体产状的测量效率，为科研人员、野外地质工作者及学生等提供了便捷的野外地质测量工具。  
+
+## 软件特点（Software Features）
+
+GeoHelper首次将手机应用于岩体结构测量与可视化统计分析，极大地提高了结构面产状的测量效率，同时实现了在野外实时的统计分析，是地质领域一个非常实用的、便捷的移动信息平台。
+
+## 运行环境（Operating Environment）
+
+* 硬件环境：具有**加速度传感器**和**磁阻传感器**的各类Android手机或者平板电脑
+* 软件环境：Android4.2及以上版本
+
+## 运行界面（Operating Interface）
 
 * **主界面（Main Interface）**  
 
