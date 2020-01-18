@@ -1,17 +1,10 @@
 # GeoHelper（地质助手）v1.0
 
+GeoHelper是基于手机移动终端开发的，集岩体结构面野外量测、数据存储导出及可视化统计分析等于一体的移动信息平台。GeoHelper的开发应用，大大提高了岩体产状的测量效率，为科研人员、野外地质工作者及学生等提供了便捷的野外地质测量工具。  
+
 <div align="center">
-  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/2.0.png width=80dp>  
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/测量.jpg width=400dp>
 </div>
-<div align="center">
-  GeoHelper Icon
-</div>
-
-GeoHelper是基于手机移动终端开发的，集岩体结构面野外量测、数据存储导出及可视化统计分析等于一体的移动信息平台。  
-
-GeoHelper的开发应用，大大提高了岩体产状的测量效率，为科研人员、野外地质工作者及学生等提供了便捷的野外地质测量工具。  
-
-
 
 ## 软件特点（Software Features）
 
@@ -32,6 +25,9 @@ GeoHelper首次将手机应用于岩体结构测量与可视化统计分析，�
 
 * **产状测量界面（Rock Joints Measuring Interface）**  
 
+测量前的准备工作类似指南针，应该远离干扰源，并将手机绕“8”字晃动重新校准手机指南针。  
+测量时，对手机摆放方向没有要求——我们在野外有时也很难判断出结构面的走向方向，需要将手机紧贴要测量的结构面。  
+
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/001产状测量.png width=300dp>
 </div>
@@ -45,9 +41,16 @@ GeoHelper首次将手机应用于岩体结构测量与可视化统计分析，�
 </div>
 
 *节理极点图*  
+输入各个节理面信息（倾向、倾角），最多支持三组节理面  
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/002绘图-03.png width=300dp>
+</div>
+
+对于后面几种统计图绘制，需要选择数据文件输入，读取的文件格式是txt，其中数据形式如下（编号 倾向 倾角 是否标记）：
+
+<div align="center">
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/txt.png width=600dp>
 </div>
 
 *节理走向等玫瑰花图*  
