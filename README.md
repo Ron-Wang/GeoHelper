@@ -1,7 +1,14 @@
 # GeoHelper（地质助手）v1.0
 
->>GeoHelper是基于手机移动终端开发的，集岩体结构面野外量测、数据存储导出及可视化统计分析等于一体的移动信息平台。  
->>GeoHelper的开发应用，大大提高了岩体产状的测量效率，为科研人员、野外地质工作者及学生等提供了便捷的野外地质测量工具。  
+GeoHelper是基于手机移动终端开发的，集岩体结构面野外量测、数据存储导出及可视化统计分析等于一体的移动信息平台。  
+
+<div align="center">
+  <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/2.0.png width=80dp>
+</div>
+
+GeoHelper的开发应用，大大提高了岩体产状的测量效率，为科研人员、野外地质工作者及学生等提供了便捷的野外地质测量工具。  
+
+
 
 ## 软件特点（Software Features）
 
