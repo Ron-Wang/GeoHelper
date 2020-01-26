@@ -22,7 +22,7 @@ GeoHelper首次将手机应用于岩体结构测量与可视化统计分析，**
 
 * GeoHelper第一次安装时，Android6.0及以上版本会提醒需要相关权限，包括位置信息（用于 GPS 定位）和存储空间（用于存储产状信息和绘图）两项权限。  
 
-* 安装后的**主界面（Main Interface）**如下  
+* **主界面（Main Interface）**  
 
 
 <div align="center">
@@ -38,6 +38,8 @@ GeoHelper首次将手机应用于岩体结构测量与可视化统计分析，**
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/001产状测量.png width=300dp>
 </div>
+
+  
 
 <div align="center">
 GeoHelper与机械罗盘的测量数据对比
