@@ -24,9 +24,11 @@ GeoHelper首次将手机应用于岩体结构测量与可视化统计分析，**
 
 * 安装后的**主界面（Main Interface）**如下  
 
+
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/000主界面.png width=300dp>
 </div>
+
 
 * **产状测量（Rock Joints Measuring）**  
 
