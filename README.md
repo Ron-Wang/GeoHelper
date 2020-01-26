@@ -6,7 +6,7 @@ GeoHelper是基于Android手机移动终端开发的，集**岩体结构面野�
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/测量.jpg width=400dp>
 </div>
 
-## 软件特点（Software Features）
+## 概述（Introduction）
 
 节理面的测量统计是进行岩体受力变形分析的基础，因此野外进行节理面产状的测量、对采集数据进行统计绘图以及后期的分析计算就显得尤为重要。传统的产状测量主要依靠机械罗盘，野外测量的效率较低（测量一个产状大约需要一分钟），工作强度大。  
 GeoHelper首次将手机应用于岩体结构测量与可视化统计分析，**极大地提高了结构面产状的测量效率**，同时**实现了在野外实时的统计分析**，是地质领域一个非常实用的、便捷的移动信息平台。
@@ -16,15 +16,19 @@ GeoHelper首次将手机应用于岩体结构测量与可视化统计分析，**
 * 硬件环境：具有**加速度传感器**和**磁阻传感器**的各类Android手机或者平板电脑
 * 软件环境：Android4.2及以上版本
 
-## 运行界面（Operating Interface）
+## 使用说明（Instruction）
 
-* **主界面（Main Interface）**  
+* 可以在releases (https://github.com/Ron-Wang/GeoHelper/releases) 下载GeoHelper.apk  
+
+* GeoHelper第一次安装时，Android6.0及以上版本会提醒需要相关权限，包括位置信息（用于 GPS 定位）和存储空间（用于存储产状信息和绘图）两项权限。  
+
+* 安装后的**主界面（Main Interface）**如下  
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/000主界面.png width=300dp>
 </div>
 
-* **产状测量界面（Rock Joints Measuring Interface）**  
+* **产状测量（Rock Joints Measuring）**  
 
 测量前的准备工作类似指南针，应该远离干扰源，并将手机绕“8”字晃动重新校准手机指南针。  
 测量时，需要将手机紧贴要测量的结构面，这里对手机摆放方向没有要求。待界面上的测量结果稳定后即可读数或记录，软件提供了数据存储（可标记优势结构面）、删除及导出等功能。  
@@ -59,7 +63,7 @@ GeoHelper与机械罗盘的测量数据对比
 
 </div>
 
-* **绘图界面（Drawing Interface）**  
+* **统计绘图（Statistical Graphics）**  
 *赤平投影图*  
 输入各个节理面信息（倾向、倾角），最多支持三组节理面  
 
@@ -93,7 +97,7 @@ GeoHelper与机械罗盘的测量数据对比
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/002绘图-05.png width=300dp>
 </div>
 
-* **系数计算界面（Coefficient Calculating Interface）**  
+* **系数计算（Coefficient Calculating）**  
 
 GeoHelper中楔形体稳定系数的计算，参照的是《边坡工程理论与实践最新发展》一书中的Hoek法。  
 
@@ -103,13 +107,17 @@ GeoHelper中楔形体稳定系数的计算，参照的是《边坡工程理论�
 </div>
 
 
-* **云平台界面（Cloud Platform Interface）**  
+* **云平台（Cloud Platform）**  
+
+云平台为地质力学云计算平台网站 (http://www.meggs-thu.com) 。用户可以进行注册或登录，使用在线赤平投影计算、节理统以及边坡计算等功能。 
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/004云平台.png width=300dp>
 </div>
 
-* **地质资料界面（Geological Data Interface）**  
+* **地质资料（Geological Data）**  
+
+包括常见矿物资料、岩浆岩资料、沉积岩资料、变质岩资料、校园中的石头和问题集锦。  
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/005地质资料-00.png width=300dp>
@@ -120,17 +128,17 @@ GeoHelper中楔形体稳定系数的计算，参照的是《边坡工程理论�
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/005地质资料-02.png width=300dp>
 </div>
 
-* **联系我们界面（Contacting Interface）**  
+* **联系我们（Contaction）**  
 
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/006联系我们-01.png width=300dp>
 </div>
 
-## 使用说明（Manual）
-
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/result.gif width=300dp>
 </div>
+  
+## 补充说明
+* 相关问题可联系作者：wangrongxin168@163.com
 
-详见：GeoHelper(地质助手)1.0使用说明书.pdf</br>
-https://github.com/Ron-Wang/GeoHelper/blob/master/GeoHelper(地质助手)1.0使用说明书.pdf
+
