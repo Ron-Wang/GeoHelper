@@ -38,9 +38,7 @@ GeoHelper首次将手机应用于岩体结构测量与可视化统计分析，**
 <div align="center">
   <img src=https://github.com/Ron-Wang/GeoHelper/blob/master/Image/SmallImage/001产状测量.png width=300dp>
 </div>
-
-  
-
+</br>
 <div align="center">
 GeoHelper与机械罗盘的测量数据对比
 </div>
